@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Login</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script src="main.js"></script>
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+  <!---Start Home Section-->
+  <div id="home">
+
+    <!---Navigation-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="/accounts/#home">
+        <img src="https://s3.us-east-2.amazonaws.com/heartmap/udlogo.png?response-content-disposition=inline&X-Amz-Security-Token=AgoGb3JpZ2luECIaCXVzLWVhc3QtMSKAAlyR08wfkL0qNCCMBAHzfCAcXnjbCaMo%2FpQOujGKaBWZ24mvytT3hL%2BNUVrgYqydCw2zDkB4a3PYW8IUKyBufnPs30Vt7ZyjC4meHVECRJe89dt7aLFc56vlkD6XPbJwu2TTLRC0Ae%2BrpMHrI70dfTWZnx5WA13A%2BkZnU1371MHda8sYBQ7q2K4jW7e1YIo%2F1A1DqQ3h4jthYBnuQrnOtQ%2FvpWzhLoD44xz1qea1KQ5kSTp4quEis2m9lVB90vV32mQx9IrLW6DjKZ5F5ihaEoTbtmVDwR26OrIb2Fdox4ovT3MSQVen1IpSXzxS1s2g301uFenRlFlSslJYh0HTOEwq2wMIeBAAGgw3NTAxMTIwODY2NTkiDLBK2pjqtGgIv7%2B8Ryq4A95lM2aeT0K1ZnfoOt2kvsP3ndfwzu%2F%2BR%2FpmYxQ9gBd9h1YmbfGpBzjKz9riG6mk%2BEgjS0iJ3HeCLb4oEdTjvp4TOVabO%2FaZVnHU1PeaJ%2BoewoecBgVOECrttu8z%2B8tXXmRsLcja%2FFsQebkPBKk7s5isEd4miOVB%2FZMty1ykHeoA%2BzBZjA4o1orUMDQMI1pAjwvYfnDgnS4PIsJIQttDib9Azr0KysK2objLqV3n6IKLB57SfrTESlwUvs76SjkTANlzR5hwgzXFLNPPQzPegKeCL94YQY%2FCIhMlXFsul%2BTsMWOAyOIUvHsGWEsm%2BHQ2ftNcZKl4iQxExSt5Q9ejeCq8XMgtuobFpFopISvjYULpnYHgZ%2FolMHS9OhWc5Qdt%2BcBh0%2FmBWXA%2F%2FxdzVHtDQTeBj4qjHk7zaBlN3%2FXJI5zi1tvwCUOJR7zHu%2BiHFIXa%2BPCpB5Z9g0Tgtegs1RfvXw5FdqgbRzzdFCZZ%2FrRWv3Jwigu0uxMxGW5CXWIWCoeDWQ63HMWHgql6sapzenXCe%2BACd561zmxXHbMlVWU51VYNdRMK7gkVJ59O5fFPsbaCyLy4LjMI3ctTMNDBzuQF&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190321T145853Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIA25JRKDKBZICUVM6Q%2F20190321%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Signature=a71a9913e85bc5ea5dfb52d66cbf5c36f3c6948bbf4f496c679c830ed4489e3c"> Heart Map
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Us</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#objectives">Objectives</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#team">The Team</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#login">Login</a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+
+    <!---Image Slider-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="7000">
+
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+
+      <!---Start Carousel Inner-->
+      <div class="carousel-inner" role="listbox">
+
+        <!---Image 1-->
+        <div class="carousel-item active" style="background-image: url(https://s3.us-east-2.amazonaws.com/heartmap/ECGCircuit.png?response-content-disposition=inline&X-Amz-Security-Token=AgoGb3JpZ2luECIaCXVzLWVhc3QtMSKAAlyR08wfkL0qNCCMBAHzfCAcXnjbCaMo%2FpQOujGKaBWZ24mvytT3hL%2BNUVrgYqydCw2zDkB4a3PYW8IUKyBufnPs30Vt7ZyjC4meHVECRJe89dt7aLFc56vlkD6XPbJwu2TTLRC0Ae%2BrpMHrI70dfTWZnx5WA13A%2BkZnU1371MHda8sYBQ7q2K4jW7e1YIo%2F1A1DqQ3h4jthYBnuQrnOtQ%2FvpWzhLoD44xz1qea1KQ5kSTp4quEis2m9lVB90vV32mQx9IrLW6DjKZ5F5ihaEoTbtmVDwR26OrIb2Fdox4ovT3MSQVen1IpSXzxS1s2g301uFenRlFlSslJYh0HTOEwq2wMIeBAAGgw3NTAxMTIwODY2NTkiDLBK2pjqtGgIv7%2B8Ryq4A95lM2aeT0K1ZnfoOt2kvsP3ndfwzu%2F%2BR%2FpmYxQ9gBd9h1YmbfGpBzjKz9riG6mk%2BEgjS0iJ3HeCLb4oEdTjvp4TOVabO%2FaZVnHU1PeaJ%2BoewoecBgVOECrttu8z%2B8tXXmRsLcja%2FFsQebkPBKk7s5isEd4miOVB%2FZMty1ykHeoA%2BzBZjA4o1orUMDQMI1pAjwvYfnDgnS4PIsJIQttDib9Azr0KysK2objLqV3n6IKLB57SfrTESlwUvs76SjkTANlzR5hwgzXFLNPPQzPegKeCL94YQY%2FCIhMlXFsul%2BTsMWOAyOIUvHsGWEsm%2BHQ2ftNcZKl4iQxExSt5Q9ejeCq8XMgtuobFpFopISvjYULpnYHgZ%2FolMHS9OhWc5Qdt%2BcBh0%2FmBWXA%2F%2FxdzVHtDQTeBj4qjHk7zaBlN3%2FXJI5zi1tvwCUOJR7zHu%2BiHFIXa%2BPCpB5Z9g0Tgtegs1RfvXw5FdqgbRzzdFCZZ%2FrRWv3Jwigu0uxMxGW5CXWIWCoeDWQ63HMWHgql6sapzenXCe%2BACd561zmxXHbMlVWU51VYNdRMK7gkVJ59O5fFPsbaCyLy4LjMI3ctTMNDBzuQF&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190321T151629Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIA25JRKDKBZICUVM6Q%2F20190321%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Signature=0d1a11df0445f251103cc25f5cf40842edd2a3010d2bc2fb4200a480a65ea20d);">
+          <div class="carousel-caption text-center">
+            <h1>Welcome to Heart Map</h1>
+            <h3>Capstone Project</h3>
+            <a class="btn btn-outline-light btn-lg" href="#services">Learn More</a>
+          </div>
+        </div>
+
+        <!--- Image 2-->
+        <div class="carousel-item" style="background-image: url(img/D150FuelingGuys.png);"></div>
+
+        <!--- Image 3-->
+        <div class="carousel-item" style="background-image: url(img/Wilmington_Delaware_skyline.png);"></div>
+
+      </div>
+      <!---End Carousel Inner-->
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+
+    </div>
+    <!---End Image Slider-->
+
+  </div>
+  <!---End Home Section-->
+
+  <!---D150 Fueling Top Startup-->
+  <div id="about" class="offset">
+
+    <div class="col-12 narrow text-center ">
+      <h1>D150 Fueling: Our Mission</h1>
+      <div class="heading-underline"></div>
+      <p class="lead ">We are a group of students striving to help those who suffer from heart arrhythmias and other underlying medical conditions
+        pertaining to the heart.
+      </p>
+      <a class="btn btn-secondary btn-md " href="https://sites.google.com/a/udel.edu/heart-map/" target="_blank ">Our Progress</a>
+    </div>
+
+  </div>
+  <!---End About-->
+
+  <!---Start Services & Products Section-->
+  <div id="objectives" class="offset">
+    <div class="jumbotron container-fluid">
+      <div class="col-12 text-center">
+        <h1 class="heading">Objectives</h1>
+        <div class="heading-underline"></div>
+      </div>
+
+
+      <div class="expando">
+        <div id="oneE">
+          <div class="topTitle centerText">
+          </div>
+          <p style="margin-left: 10%; margin-right:10%;"> Our objective is to build software that can not only understand the types of heart arrhythmias that occur, but
+            to also help predict issues to come. We plan on also implementing EEG signal analysis to conclude any and all
+            correlations between brain waves and heart rates. We would ideally like to implement a live feed of the heart
+            rates for our users who need this feature.</p>
+        </div>
+
+        <div class="narrow text-center">
+          <div class="col-12">
+            <p class="lead">Want to learn more about our platform?</p>
+            <a class="btn btn-secondary btn-md" href="#contact">Contact Us</a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    <!---End Services & Products Section-->
+
+    <!---Start Team Section-->
+    <div id="team" class="offset">
+
+      <div class="col-12 text-center">
+        <h1 class="heading">Meet the Team</h3>
+          <div class="heading-underline"></div>
+      </div>
+
+      <div class="row padding">
+
+        <div class="col-lg-6 mx-auto">
+          <div class="card-deck mx-auto">
+
+            <div class="card" style="width:100%">
+              <img class="card-img-top" src="https://s3.us-east-2.amazonaws.com/heartmap/AllieHeadshot.jpg?response-content-disposition=inline&X-Amz-Security-Token=AgoGb3JpZ2luECIaCXVzLWVhc3QtMSKAAlyR08wfkL0qNCCMBAHzfCAcXnjbCaMo%2FpQOujGKaBWZ24mvytT3hL%2BNUVrgYqydCw2zDkB4a3PYW8IUKyBufnPs30Vt7ZyjC4meHVECRJe89dt7aLFc56vlkD6XPbJwu2TTLRC0Ae%2BrpMHrI70dfTWZnx5WA13A%2BkZnU1371MHda8sYBQ7q2K4jW7e1YIo%2F1A1DqQ3h4jthYBnuQrnOtQ%2FvpWzhLoD44xz1qea1KQ5kSTp4quEis2m9lVB90vV32mQx9IrLW6DjKZ5F5ihaEoTbtmVDwR26OrIb2Fdox4ovT3MSQVen1IpSXzxS1s2g301uFenRlFlSslJYh0HTOEwq2wMIeBAAGgw3NTAxMTIwODY2NTkiDLBK2pjqtGgIv7%2B8Ryq4A95lM2aeT0K1ZnfoOt2kvsP3ndfwzu%2F%2BR%2FpmYxQ9gBd9h1YmbfGpBzjKz9riG6mk%2BEgjS0iJ3HeCLb4oEdTjvp4TOVabO%2FaZVnHU1PeaJ%2BoewoecBgVOECrttu8z%2B8tXXmRsLcja%2FFsQebkPBKk7s5isEd4miOVB%2FZMty1ykHeoA%2BzBZjA4o1orUMDQMI1pAjwvYfnDgnS4PIsJIQttDib9Azr0KysK2objLqV3n6IKLB57SfrTESlwUvs76SjkTANlzR5hwgzXFLNPPQzPegKeCL94YQY%2FCIhMlXFsul%2BTsMWOAyOIUvHsGWEsm%2BHQ2ftNcZKl4iQxExSt5Q9ejeCq8XMgtuobFpFopISvjYULpnYHgZ%2FolMHS9OhWc5Qdt%2BcBh0%2FmBWXA%2F%2FxdzVHtDQTeBj4qjHk7zaBlN3%2FXJI5zi1tvwCUOJR7zHu%2BiHFIXa%2BPCpB5Z9g0Tgtegs1RfvXw5FdqgbRzzdFCZZ%2FrRWv3Jwigu0uxMxGW5CXWIWCoeDWQ63HMWHgql6sapzenXCe%2BACd561zmxXHbMlVWU51VYNdRMK7gkVJ59O5fFPsbaCyLy4LjMI3ctTMNDBzuQF&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190321T150538Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIA25JRKDKBZICUVM6Q%2F20190321%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Signature=7e04d9e1db457490d7c8d9466272244818fb4b47ed72a04aeb72e221b46b10ad"
+                alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Allison Shovel</h5>
+                <p class="card-text">Software Engineer for HeartMap.</p>
+              </div>
+            </div>
+
+            <div class="card" style="width:100%">
+              <img class="card-img-top" src="img/" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Brent Wade</h5>
+                <p class="card-text">Currently a Senior at the University of Delaware, where I study Computer Engineering. My focus has been on
+                  Software Engineering.</p>
+              </div>
+            </div>
+
+            <div class="card" style="width:100%">
+              <img class="card-img-top" src="https://s3.us-east-2.amazonaws.com/heartmap/deionHeadshot.jpg?response-content-disposition=inline&X-Amz-Security-Token=AgoGb3JpZ2luECIaCXVzLWVhc3QtMSKAAlyR08wfkL0qNCCMBAHzfCAcXnjbCaMo%2FpQOujGKaBWZ24mvytT3hL%2BNUVrgYqydCw2zDkB4a3PYW8IUKyBufnPs30Vt7ZyjC4meHVECRJe89dt7aLFc56vlkD6XPbJwu2TTLRC0Ae%2BrpMHrI70dfTWZnx5WA13A%2BkZnU1371MHda8sYBQ7q2K4jW7e1YIo%2F1A1DqQ3h4jthYBnuQrnOtQ%2FvpWzhLoD44xz1qea1KQ5kSTp4quEis2m9lVB90vV32mQx9IrLW6DjKZ5F5ihaEoTbtmVDwR26OrIb2Fdox4ovT3MSQVen1IpSXzxS1s2g301uFenRlFlSslJYh0HTOEwq2wMIeBAAGgw3NTAxMTIwODY2NTkiDLBK2pjqtGgIv7%2B8Ryq4A95lM2aeT0K1ZnfoOt2kvsP3ndfwzu%2F%2BR%2FpmYxQ9gBd9h1YmbfGpBzjKz9riG6mk%2BEgjS0iJ3HeCLb4oEdTjvp4TOVabO%2FaZVnHU1PeaJ%2BoewoecBgVOECrttu8z%2B8tXXmRsLcja%2FFsQebkPBKk7s5isEd4miOVB%2FZMty1ykHeoA%2BzBZjA4o1orUMDQMI1pAjwvYfnDgnS4PIsJIQttDib9Azr0KysK2objLqV3n6IKLB57SfrTESlwUvs76SjkTANlzR5hwgzXFLNPPQzPegKeCL94YQY%2FCIhMlXFsul%2BTsMWOAyOIUvHsGWEsm%2BHQ2ftNcZKl4iQxExSt5Q9ejeCq8XMgtuobFpFopISvjYULpnYHgZ%2FolMHS9OhWc5Qdt%2BcBh0%2FmBWXA%2F%2FxdzVHtDQTeBj4qjHk7zaBlN3%2FXJI5zi1tvwCUOJR7zHu%2BiHFIXa%2BPCpB5Z9g0Tgtegs1RfvXw5FdqgbRzzdFCZZ%2FrRWv3Jwigu0uxMxGW5CXWIWCoeDWQ63HMWHgql6sapzenXCe%2BACd561zmxXHbMlVWU51VYNdRMK7gkVJ59O5fFPsbaCyLy4LjMI3ctTMNDBzuQF&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190321T150610Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIA25JRKDKBZICUVM6Q%2F20190321%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Signature=a089bbc71afbb377e81bc3d49c1384ece2888046bdb9f3eec6e04a99b8fc3c91"
+                alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Deion Cottingham</h5>
+                <p class="card-text">As a working Electrical Engineering student at the University of Delaware, my goal is to graduate with my
+                  Bachelors of Science Degree in Electrical Engineering and minor in Cybersecurity.</p>
+              </div>
+            </div>
+
+            <div class="card" style="width:100%">
+              <img class="card-img-top" src="https://s3.us-east-2.amazonaws.com/heartmap/ToriHeadshot.jpg?response-content-disposition=inline&X-Amz-Security-Token=AgoGb3JpZ2luECIaCXVzLWVhc3QtMSKAAlyR08wfkL0qNCCMBAHzfCAcXnjbCaMo%2FpQOujGKaBWZ24mvytT3hL%2BNUVrgYqydCw2zDkB4a3PYW8IUKyBufnPs30Vt7ZyjC4meHVECRJe89dt7aLFc56vlkD6XPbJwu2TTLRC0Ae%2BrpMHrI70dfTWZnx5WA13A%2BkZnU1371MHda8sYBQ7q2K4jW7e1YIo%2F1A1DqQ3h4jthYBnuQrnOtQ%2FvpWzhLoD44xz1qea1KQ5kSTp4quEis2m9lVB90vV32mQx9IrLW6DjKZ5F5ihaEoTbtmVDwR26OrIb2Fdox4ovT3MSQVen1IpSXzxS1s2g301uFenRlFlSslJYh0HTOEwq2wMIeBAAGgw3NTAxMTIwODY2NTkiDLBK2pjqtGgIv7%2B8Ryq4A95lM2aeT0K1ZnfoOt2kvsP3ndfwzu%2F%2BR%2FpmYxQ9gBd9h1YmbfGpBzjKz9riG6mk%2BEgjS0iJ3HeCLb4oEdTjvp4TOVabO%2FaZVnHU1PeaJ%2BoewoecBgVOECrttu8z%2B8tXXmRsLcja%2FFsQebkPBKk7s5isEd4miOVB%2FZMty1ykHeoA%2BzBZjA4o1orUMDQMI1pAjwvYfnDgnS4PIsJIQttDib9Azr0KysK2objLqV3n6IKLB57SfrTESlwUvs76SjkTANlzR5hwgzXFLNPPQzPegKeCL94YQY%2FCIhMlXFsul%2BTsMWOAyOIUvHsGWEsm%2BHQ2ftNcZKl4iQxExSt5Q9ejeCq8XMgtuobFpFopISvjYULpnYHgZ%2FolMHS9OhWc5Qdt%2BcBh0%2FmBWXA%2F%2FxdzVHtDQTeBj4qjHk7zaBlN3%2FXJI5zi1tvwCUOJR7zHu%2BiHFIXa%2BPCpB5Z9g0Tgtegs1RfvXw5FdqgbRzzdFCZZ%2FrRWv3Jwigu0uxMxGW5CXWIWCoeDWQ63HMWHgql6sapzenXCe%2BACd561zmxXHbMlVWU51VYNdRMK7gkVJ59O5fFPsbaCyLy4LjMI3ctTMNDBzuQF&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190321T150700Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIA25JRKDKBZICUVM6Q%2F20190321%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Signature=44a1c61c30a4d5f35580493f1ff2cbd1c75842024fd93b0f50c8740e5a65dbce"
+                alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Victoria DeSpirito</h5>
+                <p class="card-text">Hardware Engineer for Heart Map.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+      <!--- End of row padding -->
+
+    </div>
+    <!---End Team Section-->
+
+    <!---Start Contact Section-->
+    <div id="contact" class="offset">
+
+      <footer>
+        <div class="row justify-content-center">
+
+          <div class="col-md-5 text-center">
+            <img src="https://s3.us-east-2.amazonaws.com/heartmap/udlogo.png?response-content-disposition=inline&X-Amz-Security-Token=AgoGb3JpZ2luECIaCXVzLWVhc3QtMSKAAlyR08wfkL0qNCCMBAHzfCAcXnjbCaMo%2FpQOujGKaBWZ24mvytT3hL%2BNUVrgYqydCw2zDkB4a3PYW8IUKyBufnPs30Vt7ZyjC4meHVECRJe89dt7aLFc56vlkD6XPbJwu2TTLRC0Ae%2BrpMHrI70dfTWZnx5WA13A%2BkZnU1371MHda8sYBQ7q2K4jW7e1YIo%2F1A1DqQ3h4jthYBnuQrnOtQ%2FvpWzhLoD44xz1qea1KQ5kSTp4quEis2m9lVB90vV32mQx9IrLW6DjKZ5F5ihaEoTbtmVDwR26OrIb2Fdox4ovT3MSQVen1IpSXzxS1s2g301uFenRlFlSslJYh0HTOEwq2wMIeBAAGgw3NTAxMTIwODY2NTkiDLBK2pjqtGgIv7%2B8Ryq4A95lM2aeT0K1ZnfoOt2kvsP3ndfwzu%2F%2BR%2FpmYxQ9gBd9h1YmbfGpBzjKz9riG6mk%2BEgjS0iJ3HeCLb4oEdTjvp4TOVabO%2FaZVnHU1PeaJ%2BoewoecBgVOECrttu8z%2B8tXXmRsLcja%2FFsQebkPBKk7s5isEd4miOVB%2FZMty1ykHeoA%2BzBZjA4o1orUMDQMI1pAjwvYfnDgnS4PIsJIQttDib9Azr0KysK2objLqV3n6IKLB57SfrTESlwUvs76SjkTANlzR5hwgzXFLNPPQzPegKeCL94YQY%2FCIhMlXFsul%2BTsMWOAyOIUvHsGWEsm%2BHQ2ftNcZKl4iQxExSt5Q9ejeCq8XMgtuobFpFopISvjYULpnYHgZ%2FolMHS9OhWc5Qdt%2BcBh0%2FmBWXA%2F%2FxdzVHtDQTeBj4qjHk7zaBlN3%2FXJI5zi1tvwCUOJR7zHu%2BiHFIXa%2BPCpB5Z9g0Tgtegs1RfvXw5FdqgbRzzdFCZZ%2FrRWv3Jwigu0uxMxGW5CXWIWCoeDWQ63HMWHgql6sapzenXCe%2BACd561zmxXHbMlVWU51VYNdRMK7gkVJ59O5fFPsbaCyLy4LjMI3ctTMNDBzuQF&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190321T145853Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIA25JRKDKBZICUVM6Q%2F20190321%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Signature=a71a9913e85bc5ea5dfb52d66cbf5c36f3c6948bbf4f496c679c830ed4489e3c">
+
+            <strong>Contact Information</strong>
+            <p>email: bkwade@udel.edu</p>
+
+            <a href="https://www.linkedin.com/company/d150-fueling-llc/about/" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+
+        </div>
+        <!--- End of Row -->
+      </footer>
+
+    </div>
+    <!---End Contact Section-->
+
+    <!---Script Source Files-->
+    <script src="https://use.fontawesome.com/releases/v5.7.2/js/all.js "></script>
+    <!---End Source Files-->
+
+
+
+
+
+</body>
+
+</html>
+
+</html>
