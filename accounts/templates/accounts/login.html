@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Login</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script src="main.js"></script>
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+  <!---Start Home Section-->
+  <div id="home">
+
+    <!---Navigation-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="/accounts/#home">
+        <img src="/udlogoResize.png"> Heart Map
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Us</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#objectives">Objectives</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#team">The Team</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+
+    <!---Image Slider-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="7000">
+
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+
+      <!---Start Carousel Inner-->
+      <div class="carousel-inner" role="listbox">
+
+        <!---Image 1-->
+        <div class="carousel-item active" style="background-image: url(img/D1502Trucks.jpg);">
+          <div class="carousel-caption text-center">
+            <h1>Welcome to D150 Fueling</h1>
+            <h3>On-Site Fueling</h3>
+            <a class="btn btn-outline-light btn-lg" href="#services">Learn More</a>
+          </div>
+        </div>
+
+        <!--- Image 2-->
+        <div class="carousel-item" style="background-image: url(img/D150FuelingGuys.png);"></div>
+
+        <!--- Image 3-->
+        <div class="carousel-item" style="background-image: url(img/Wilmington_Delaware_skyline.png);"></div>
+
+      </div>
+      <!---End Carousel Inner-->
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+
+    </div>
+    <!---End Image Slider-->
+
+  </div>
+  <!---End Home Section-->
+
+  <!---D150 Fueling Top Startup-->
+  <div id="about" class="offset">
+
+    <div class="col-12 narrow text-center ">
+      <h1>D150 Fueling: Our Mission</h1>
+      <div class="heading-underline"></div>
+      <p class="lead ">We are a group of students striving to help those who suffer from heart arrhythmias and other underlying medical conditions
+        pertaining to the heart.
+      </p>
+      <a class="btn btn-secondary btn-md " href="https://sites.google.com/a/udel.edu/heart-map/" target="_blank ">Our Progress</a>
+    </div>
+
+  </div>
+  <!---End About-->
+
+  <!---Start Services & Products Section-->
+  <div id="objectives" class="offset">
+    <div class="jumbotron container-fluid">
+      <div class="col-12 text-center">
+        <h1 class="heading">Objectives</h1>
+        <div class="heading-underline"></div>
+      </div>
+
+
+      <div class="expando">
+        <div id="oneE">
+          <div class="topTitle centerText">
+          </div>
+          <p style="margin-left: 10%; margin-right:10%;"> Our objective is to build software that can not only understand the types of heart arrhythmias that occur, but
+            to also help predict issues to come. We plan on also implementing EEG signal analysis to conclude any and all
+            correlations between brain waves and heart rates. We would ideally like to implement a live feed of the heart
+            rates for our users who need this feature.</p>
+        </div>
+
+        <div class="narrow text-center">
+          <div class="col-12">
+            <p class="lead">Want to learn more about our platform?</p>
+            <a class="btn btn-secondary btn-md" href="#contact">Contact Us</a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    <!---End Services & Products Section-->
+
+    <!---Start Team Section-->
+    <div id="team" class="offset">
+
+      <div class="col-12 text-center">
+        <h1 class="heading">Meet the Team</h3>
+          <div class="heading-underline"></div>
+      </div>
+
+      <div class="row padding">
+
+        <div class="col-md-6 mx-auto">
+          <div class="card-deck mx-auto">
+
+            <div class="card" style="width: 30rem;">
+              <img class="card-img-top" src="https://s3.us-east-2.amazonaws.com/heartmap/AllieHeadshot.jpg?response-content-disposition=inline&X-Amz-Security-Token=AgoGb3JpZ2luECIaCXVzLWVhc3QtMSKAAlyR08wfkL0qNCCMBAHzfCAcXnjbCaMo%2FpQOujGKaBWZ24mvytT3hL%2BNUVrgYqydCw2zDkB4a3PYW8IUKyBufnPs30Vt7ZyjC4meHVECRJe89dt7aLFc56vlkD6XPbJwu2TTLRC0Ae%2BrpMHrI70dfTWZnx5WA13A%2BkZnU1371MHda8sYBQ7q2K4jW7e1YIo%2F1A1DqQ3h4jthYBnuQrnOtQ%2FvpWzhLoD44xz1qea1KQ5kSTp4quEis2m9lVB90vV32mQx9IrLW6DjKZ5F5ihaEoTbtmVDwR26OrIb2Fdox4ovT3MSQVen1IpSXzxS1s2g301uFenRlFlSslJYh0HTOEwq2wMIeBAAGgw3NTAxMTIwODY2NTkiDLBK2pjqtGgIv7%2B8Ryq4A95lM2aeT0K1ZnfoOt2kvsP3ndfwzu%2F%2BR%2FpmYxQ9gBd9h1YmbfGpBzjKz9riG6mk%2BEgjS0iJ3HeCLb4oEdTjvp4TOVabO%2FaZVnHU1PeaJ%2BoewoecBgVOECrttu8z%2B8tXXmRsLcja%2FFsQebkPBKk7s5isEd4miOVB%2FZMty1ykHeoA%2BzBZjA4o1orUMDQMI1pAjwvYfnDgnS4PIsJIQttDib9Azr0KysK2objLqV3n6IKLB57SfrTESlwUvs76SjkTANlzR5hwgzXFLNPPQzPegKeCL94YQY%2FCIhMlXFsul%2BTsMWOAyOIUvHsGWEsm%2BHQ2ftNcZKl4iQxExSt5Q9ejeCq8XMgtuobFpFopISvjYULpnYHgZ%2FolMHS9OhWc5Qdt%2BcBh0%2FmBWXA%2F%2FxdzVHtDQTeBj4qjHk7zaBlN3%2FXJI5zi1tvwCUOJR7zHu%2BiHFIXa%2BPCpB5Z9g0Tgtegs1RfvXw5FdqgbRzzdFCZZ%2FrRWv3Jwigu0uxMxGW5CXWIWCoeDWQ63HMWHgql6sapzenXCe%2BACd561zmxXHbMlVWU51VYNdRMK7gkVJ59O5fFPsbaCyLy4LjMI3ctTMNDBzuQF&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190321T143705Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIA25JRKDKBZICUVM6Q%2F20190321%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Signature=4a41338e65d7acc4540bd8b541be92c9db53dfe307990ce15bac4d6cb7fc2138"
+                alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Allison Shovel</h5>
+                <p class="card-text">Software Engineer for HeartMap.</p>
+              </div>
+            </div>
+
+            <div class="card" style="width: 30rem;">
+              <img class="card-img-top" src="img/" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Brent Wade</h5>
+                <p class="card-text">Currently a Senior at the University of Delaware, where I study Computer Engineering. My focus has been on
+                  Software Engineering.</p>
+              </div>
+            </div>
+
+            <div class="card" style="width: 30rem;">
+              <img class="card-img-top" src="https://s3.us-east-2.amazonaws.com/heartmap/deionHeadshot.jpg?response-content-disposition=inline&X-Amz-Security-Token=AgoGb3JpZ2luECIaCXVzLWVhc3QtMSKAAlyR08wfkL0qNCCMBAHzfCAcXnjbCaMo%2FpQOujGKaBWZ24mvytT3hL%2BNUVrgYqydCw2zDkB4a3PYW8IUKyBufnPs30Vt7ZyjC4meHVECRJe89dt7aLFc56vlkD6XPbJwu2TTLRC0Ae%2BrpMHrI70dfTWZnx5WA13A%2BkZnU1371MHda8sYBQ7q2K4jW7e1YIo%2F1A1DqQ3h4jthYBnuQrnOtQ%2FvpWzhLoD44xz1qea1KQ5kSTp4quEis2m9lVB90vV32mQx9IrLW6DjKZ5F5ihaEoTbtmVDwR26OrIb2Fdox4ovT3MSQVen1IpSXzxS1s2g301uFenRlFlSslJYh0HTOEwq2wMIeBAAGgw3NTAxMTIwODY2NTkiDLBK2pjqtGgIv7%2B8Ryq4A95lM2aeT0K1ZnfoOt2kvsP3ndfwzu%2F%2BR%2FpmYxQ9gBd9h1YmbfGpBzjKz9riG6mk%2BEgjS0iJ3HeCLb4oEdTjvp4TOVabO%2FaZVnHU1PeaJ%2BoewoecBgVOECrttu8z%2B8tXXmRsLcja%2FFsQebkPBKk7s5isEd4miOVB%2FZMty1ykHeoA%2BzBZjA4o1orUMDQMI1pAjwvYfnDgnS4PIsJIQttDib9Azr0KysK2objLqV3n6IKLB57SfrTESlwUvs76SjkTANlzR5hwgzXFLNPPQzPegKeCL94YQY%2FCIhMlXFsul%2BTsMWOAyOIUvHsGWEsm%2BHQ2ftNcZKl4iQxExSt5Q9ejeCq8XMgtuobFpFopISvjYULpnYHgZ%2FolMHS9OhWc5Qdt%2BcBh0%2FmBWXA%2F%2FxdzVHtDQTeBj4qjHk7zaBlN3%2FXJI5zi1tvwCUOJR7zHu%2BiHFIXa%2BPCpB5Z9g0Tgtegs1RfvXw5FdqgbRzzdFCZZ%2FrRWv3Jwigu0uxMxGW5CXWIWCoeDWQ63HMWHgql6sapzenXCe%2BACd561zmxXHbMlVWU51VYNdRMK7gkVJ59O5fFPsbaCyLy4LjMI3ctTMNDBzuQF&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190321T143805Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIA25JRKDKBZICUVM6Q%2F20190321%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Signature=b783f7faa78b7ee88c89abe5d2b00e13c49b4dba8b83d51c7c91cbb329f346f8"
+                alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Deion Cottingham</h5>
+                <p class="card-text">As a working Electrical Engineering student at the University of Delaware, my goal is to graduate with my
+                  Bachelors of Science Degree in Electrical Engineering and minor in Cybersecurity.</p>
+              </div>
+            </div>
+
+            <div class="card" style="width: 30rem;">
+              <img class="card-img-top" src="https://s3.us-east-2.amazonaws.com/heartmap/ToriHeadshot.jpg?response-content-disposition=inline&X-Amz-Security-Token=AgoGb3JpZ2luECIaCXVzLWVhc3QtMSKAAlyR08wfkL0qNCCMBAHzfCAcXnjbCaMo%2FpQOujGKaBWZ24mvytT3hL%2BNUVrgYqydCw2zDkB4a3PYW8IUKyBufnPs30Vt7ZyjC4meHVECRJe89dt7aLFc56vlkD6XPbJwu2TTLRC0Ae%2BrpMHrI70dfTWZnx5WA13A%2BkZnU1371MHda8sYBQ7q2K4jW7e1YIo%2F1A1DqQ3h4jthYBnuQrnOtQ%2FvpWzhLoD44xz1qea1KQ5kSTp4quEis2m9lVB90vV32mQx9IrLW6DjKZ5F5ihaEoTbtmVDwR26OrIb2Fdox4ovT3MSQVen1IpSXzxS1s2g301uFenRlFlSslJYh0HTOEwq2wMIeBAAGgw3NTAxMTIwODY2NTkiDLBK2pjqtGgIv7%2B8Ryq4A95lM2aeT0K1ZnfoOt2kvsP3ndfwzu%2F%2BR%2FpmYxQ9gBd9h1YmbfGpBzjKz9riG6mk%2BEgjS0iJ3HeCLb4oEdTjvp4TOVabO%2FaZVnHU1PeaJ%2BoewoecBgVOECrttu8z%2B8tXXmRsLcja%2FFsQebkPBKk7s5isEd4miOVB%2FZMty1ykHeoA%2BzBZjA4o1orUMDQMI1pAjwvYfnDgnS4PIsJIQttDib9Azr0KysK2objLqV3n6IKLB57SfrTESlwUvs76SjkTANlzR5hwgzXFLNPPQzPegKeCL94YQY%2FCIhMlXFsul%2BTsMWOAyOIUvHsGWEsm%2BHQ2ftNcZKl4iQxExSt5Q9ejeCq8XMgtuobFpFopISvjYULpnYHgZ%2FolMHS9OhWc5Qdt%2BcBh0%2FmBWXA%2F%2FxdzVHtDQTeBj4qjHk7zaBlN3%2FXJI5zi1tvwCUOJR7zHu%2BiHFIXa%2BPCpB5Z9g0Tgtegs1RfvXw5FdqgbRzzdFCZZ%2FrRWv3Jwigu0uxMxGW5CXWIWCoeDWQ63HMWHgql6sapzenXCe%2BACd561zmxXHbMlVWU51VYNdRMK7gkVJ59O5fFPsbaCyLy4LjMI3ctTMNDBzuQF&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190321T143741Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIA25JRKDKBZICUVM6Q%2F20190321%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Signature=53706e4bad1c0fd18c87e7d016addcd5c2aa63e076be9053e172515968adfade"
+                alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Victoria DeSpirito</h5>
+                <p class="card-text">Experienced Co-Founder with a demonstrated history of working in the oil & energy industry. Skilled in Microsoft
+                  Word, Technical Support, Entrepreneurship, Communication, and Accounting. Strong business development professional
+                  with a Bachelor’s of Science (BS) focused in Economics and Finance from University of Delaware.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+      <!--- End of row padding -->
+
+    </div>
+    <!---End Team Section-->
+
+    <!---Start Contact Section-->
+    <div id="contact" class="offset">
+
+      <footer>
+        <div class="row justify-content-center">
+
+          <div class="col-md-5 text-center">
+            <img src="udlogoResize.png">
+
+            <strong>Contact Information</strong>
+            <p>email: bkwade@udel.edu</p>
+
+            <a href="https://www.linkedin.com/company/d150-fueling-llc/about/" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+
+        </div>
+        <!--- End of Row -->
+      </footer>
+
+    </div>
+    <!---End Contact Section-->
+
+    <!---Script Source Files-->
+    <script src="https://use.fontawesome.com/releases/v5.7.2/js/all.js "></script>
+    <!---End Source Files-->
+
+
+
+
+
+</body>
+
+</html>
+
+</html>
